@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "demo">Sum of two nums</p>
+    <p id="car"></p>
+    <script>
+        const x = 5;
+        let y = 6;
+        let z = x+y;
+        document.getElementById('demo').innerHTML="the sum of x and y is:" + z;
+        
+        const car = {"name":"Vento","model":2015,"color":"grey"};
+        
+        car.model = 2013
+
+        console.log("car model is:",car)
+        document.getElementById('car').innerHTML=car.color + " " + car.model + " " + car.name;
+
+    </script>
+</body>
+</html>
